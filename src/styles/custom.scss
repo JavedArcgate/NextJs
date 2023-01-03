@@ -1,0 +1,133 @@
+@import 'vars.scss';
+@import 'Home.module.scss';
+
+.owl-nav {
+  // border: 1px solid #000;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.owl-carousel .owl-stage-outer {
+  margin: 10px 0px;
+
+  .owl-stage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    margin: 30px 0;
+  }
+}
+
+.owl-carousel.SupportBy  .owl-stage-outer {
+  .owl-stage {
+    padding: 0 0;
+    margin: 20px 0;
+  }
+}
+
+.item {
+  position: relative;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 5px;
+  border-radius: 30px;
+
+  h4 {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    border: 1px solid white;
+    padding: 0px 8px;
+  }
+
+  .stars{
+    margin-bottom: 0px;
+    padding: 0 10px;
+    position: relative;
+    bottom: 40px;
+  }
+  h3{
+    font-size: 0.85rem;
+    margin-bottom: 2px;
+  }
+  h5{
+    font-size: 0.70rem;
+    margin-bottom: 0px;
+    
+  }
+}
+
+.owl-carousel .owl-item img {
+  border-radius: 20px;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  background: white;
+  box-shadow: rgb(38, 57, 77) 0px 10px 20px -10px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  padding: 0px 0px !important;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover{
+    border: 2px solid $color-brand;
+    svg{
+      fill: $color-brand;
+    }
+  }
+}
+
+
+
+.owl-item.active.center {
+  transform: scale(1.5);
+  z-index: 1;
+
+  .item {
+    margin: 0 0;
+  }
+}
+
+.owl-dots {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.owl-dot {
+  height: 15px;
+  width: 15px;
+  background-color: #e9ecef !important;
+  margin: 5px;
+  border-radius: 100%;
+
+  &.active {
+    background-color: #ec994a !important;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.they-says{
+  .owl-nav{
+    position: absolute;
+    top: 50%;
+  }
+}
+.topContent{
+  .btn.btn-outline-warning {
+    &:hover{
+      svg{
+        fill: var(--bs-dark);;
+      }
+    }
+  }
+}

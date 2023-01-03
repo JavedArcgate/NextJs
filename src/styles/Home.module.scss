@@ -1,26 +1,22 @@
-$color-brand: #EC994B;
+@import 'vars.scss';
 
-.brand {
-  color: $color-brand  !important;
+.bg-brand{
+  background-color: $color-brand;
 }
-
-.one{
-  border: 2px solid red;
+.brand-color{
+  color: $color-brand !important;
 }
 
 .main {
   min-height: 100vh;
-  /* padding: 4rem 0; */
   flex: 1;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
 .footer {
-  display: flex;
-  flex: 1;
+  background-color: $footerBG;
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
@@ -28,15 +24,15 @@ $color-brand: #EC994B;
 }
 
 .footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+  color: #fff;
+  &:hover{
+    color: $color-brand;
+  }
 }
 
 .title {
   a {
-    color: red;
+    color: $color-brand;
     text-decoration: none;
   }
 }

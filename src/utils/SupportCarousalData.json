@@ -1,0 +1,32 @@
+[
+  {
+    "id": "01",
+    "title": "Swiggy",
+    "price": "$12",
+    "image": "images/supportBy/swiggy_logo.svg"
+  },
+  {
+    "id": "02",
+    "title": "Grab",
+    "price": "$15",
+    "image": "images/supportBy/grab_logo.png"
+  },
+  {
+    "id": "03",
+    "title": "Dana",
+    "price": "$25",
+    "image": "images/supportBy/dana_logo.png"
+  },
+  {
+    "id": "04",
+    "title": "Shopee",
+    "price": "$08",
+    "image": "images/supportBy/shopee_logo.png"
+  },
+  {
+    "id": "05",
+    "title": "Zomato",
+    "price": "$12",
+    "image": "images/supportBy/zomato_logo.png"
+  }
+]

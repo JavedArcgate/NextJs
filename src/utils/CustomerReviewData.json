@@ -1,0 +1,26 @@
+{
+  "customer_reviews": [{
+    "reviews_all": {
+      "heading":"Customer Review",
+      "total_reviews": "200",
+      "total_rating": "4.8",
+      "reviews": [
+        {
+          "id": "01",
+          "review": "Review01",
+          "image": "images/review01.jpg"
+        },
+        {
+          "id": "02",
+          "review": "Review02",
+          "image": "images/review02.jpg"
+        },
+        {
+          "id": "03",
+          "review": "Review03",
+          "image": "images/review03.jpg"
+        }
+      ]
+    }
+  }]
+}
