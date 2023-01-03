@@ -2,13 +2,10 @@
 import React, { useState } from "react";
 import { Col, Row } from "antd";
 import { erEmail, emailRegistered } from "../constants/variables";
-import { Button } from "antd";
 
 const NLImage = "./images/eat.png";
 
-// const [email, setEmail] = useState("");
-const classes =
-  "container align-items-center justify-content-between pt-5 pb-5 bg-brand";
+const classes = "container align-items-center justify-content-between pt-5 pb-5 bg-brand";
 
 function NewsLetter() {
   const [email, setEmail] = useState("");
@@ -86,7 +83,6 @@ function NewsLetter() {
           body: JSON.stringify(userEmail),
         }
       );
-      // console.log(result, "RESULTsssss");
     }
   }
 
@@ -108,37 +104,9 @@ function NewsLetter() {
     }
   };
 
-  // function disposeError() {
-  //   setTimeout(() => {
-  //     setErrorMessages("");
-  //   }, 10000);
-  // }
-  // function disposeError(errType) {
-  //   switch (errType) {
-  //     case "Error":
-  //       setTimeout(() => {
-  //         setErrorMessages("");
-  //       }, 10000);
-  //       break;
-
-  //     case "Success":
-  //       setTimeout(() => {
-  //         setSuccessMessages("");
-  //       }, 10000);
-  //       break;
-
-  //     default:
-  //       break;
-  //   }
-  // }
-
   return (
     <>
       <section className={classes}>
-        <Row>
-          <Col span={12}>123456</Col>
-          <Col span={12}>789101112</Col>
-        </Row>
         <Row className="text-light m-0">
           <Col span={12} className="text-center">
             <img
@@ -170,9 +138,6 @@ function NewsLetter() {
                 />
               </div>
               <div class="col-4 ps-0">
-                {/* <Button block onClick={register} danger type="primary">
-                  Register
-                </Button> */}
                 <button
                   onClick={register}
                   type="submit"
