@@ -1,0 +1,29 @@
+[
+  {
+    "id": "01",
+    "name": "Bella Wish",
+    "category":"Food Vlogger",
+    "rating": "4.2",
+    "comment": "The food and service both were awesome and excellent.",
+    "user_pic": "images/review01.jpg",
+    "dish_pic": "images/01.jpg"
+  },
+  {
+    "id": "02",
+    "name": "Sweet Tom",
+    "category":"Food Lover",
+    "rating": "3.9",
+    "comment": "Great ambiance. Tasty food. Nice service. Waiters were great hosts.",
+    "user_pic": "images/review02.jpg",
+    "dish_pic": "images/02.jpg"
+  },
+  {
+    "id": "03",
+    "name": "Smith Tim",
+    "category":"Visiter",
+    "rating": "4.7",
+    "comment": "Very nice taste and good ambience The staff is also friendly",
+    "user_pic": "images/review03.jpg",
+    "dish_pic": "images/03.jpg"
+  }
+]

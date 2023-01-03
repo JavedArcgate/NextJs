@@ -1,0 +1,32 @@
+[
+  {
+    "id": "01",
+    "title": "Delivery Food",
+    "description": "Lorem ipsum dolor a sit amet consecteture",
+    "image": "images/delivery-food.png"
+  },
+  {
+    "id": "02",
+    "title": "Ease to Order",
+    "description": "Lorem ipsum dolor a sit amet consecteture",
+    "image": "images/easy-order.png"
+  },
+  {
+    "id": "03",
+    "title": "Fastest Delivery",
+    "description": "Lorem ipsum dolor a sit amet consecteture",
+    "image": "images/fast-delivery.png"
+  },
+  {
+    "id": "04",
+    "title": "Shopee",
+    "description": "Lorem ipsum dolor a sit amet consecteture",
+    "image": "images/home-banner.PNG"
+  },
+  {
+    "id": "05",
+    "title": "Zomato",
+    "description": "Lorem ipsum dolor a sit amet consecteture",
+    "image": "images/home-banner.PNG"
+  }
+]

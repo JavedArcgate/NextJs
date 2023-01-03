@@ -1,9 +1,19 @@
 /** @type {import('next').NextConfig} */
+const webpack = require("webpack");
 const nextConfig = {
   reactStrictMode: true,
-  // sassOptions: {
-  //   includePaths: [path.join(__dirname, 'styles')],
-  // },
+  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
+    config.plugins.push(
+      new webpack.ProvidePlugin({
+        $: "jquery",
+        jQuery: "jquery",
+        "window.jQuery": "jquery",
+      }));
+    return config;
+    // sassOptions: {
+    //   includePaths: [path.join(__dirname, 'styles')],
+    // },
+  }
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;
