@@ -3,7 +3,6 @@ import { Row, Col, Button } from "react-bootstrap";
 import banner from '../../public/images/home-banner.PNG';
 import Image from 'next/image';
 import CustomerReviewData from "../utils/CustomerReviewData.json";
-import { data } from "jquery";
 import { FaStar, FaRegPlayCircle } from "react-icons/fa";
 
 const HeroSection = () => {
