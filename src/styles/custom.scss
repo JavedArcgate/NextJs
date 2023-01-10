@@ -77,9 +77,12 @@
   align-items: center;
   justify-content: center;
   &:hover{
-    border: 2px solid $color-brand;
+    border: 1px solid $color-brand;
+    transition: all 0.2s;
+    // background-color: var(--bs-dark);
     svg{
       fill: $color-brand;
+      transition: all 0.2s;
     }
   }
 }
@@ -130,4 +133,7 @@
       }
     }
   }
+}
+::selection{
+  background-color: $color-brand;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import CarousalData from "../utils/CarousalData.json";
 import { Row, Col } from "react-bootstrap";
-import {LR as LLR , left, right, RotaryCircleLogo} from '../constants/svgs'
+import {LR as LLR } from '../constants/svgs'
 const mainTitle = "— Populer Deliveries —";
 const subTitle = "Trending Foods";
 
@@ -15,7 +15,7 @@ if (typeof window !== "undefined") {
 
 import dynamic from "next/dynamic";
 import { data } from "jquery";
-import Ratings from "../components/Rating";
+import Ratings from "./Rating";
 import { FaArrowRight } from "react-icons/fa";
 // const basePath = '../../public/images'
 const OwlCarousel = dynamic(() => import("react-owl-carousel"), {

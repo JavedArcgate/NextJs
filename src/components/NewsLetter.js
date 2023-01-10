@@ -124,24 +124,24 @@ function NewsLetter() {
             </h6>
 
             <div className="row mt-4">
-              <div class="col-8">
-                <label for="inputPassword2" class="visually-hidden">
+              <div className="col-8">
+                <label for="inputPassword2" className="visually-hidden">
                   Your Email
                 </label>
                 <input
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   onChange={handelOnchage}
                   id="email"
                   placeholder="Your Email"
                   inputValue={email.trim()}
                 />
               </div>
-              <div class="col-4 ps-0">
+              <div className="col-4 ps-0">
                 <button
                   onClick={register}
                   type="submit"
-                  class="btn btn-dark mb-3 w-100"
+                  className="btn btn-dark mb-3 w-100"
                 >
                   GO
                 </button>

@@ -2,6 +2,8 @@ import { Button } from "react-bootstrap";
 import React from "react";
 import HeaderNavData from "../utils/HeaderNavData.json";
 import { data } from "jquery";
+import Logo from "./Logo";
+import Link from "next/link";
 
 var d = HeaderNavData;
 
@@ -12,9 +14,10 @@ function Header() {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light px-lg-5 px-sm-3 one sticky-top bg-white border-bottom">
         <div className="container-fluid">
-          <a className="navbar-brand fw-bold brand-color" href="#">
+          {/* <a className="navbar-brand fw-bold brand-color" href="#">
             F&D
-          </a>
+          </a> */}
+          <Logo />
           <button
             className="navbar-toggler"
             type="button"
@@ -46,35 +49,45 @@ function Header() {
                       aria-labelledby="navbarDropdown"
                     >
                       {data.menu.map((menuData, i) => (
-                        <li>
-                          <a className="dropdown-item" href="#">
+                        <li className="dropdown-item">
+                          <Link href={menuData.mTiltle}>
                             {menuData.mTiltle}
-                          </a>
+                          </Link>
                         </li>
                       ))}
                     </ul>
                   </li>
                 ) : (
-                  <li key={index} className="nav-item px-3 ">
-                    <a
+                  <li
+                    key={index}
+                    className="nav-item px-3 nav-link active text-dark"
+                  >
+                    <Link
                       className="nav-link active text-dark"
                       aria-current="page"
-                      href="#"
+                      href="/"
                     >
                       {data.title}
-                    </a>
+                    </Link>
                   </li>
                 )
               )}
               <li className="nav-item px-3">
-                <Button variant="outline-warning px-4 rounded-pill">
-                  Register
-                </Button>
+                <Link href="/register">
+                  <a className="btn btn-outline-warning px-4 rounded-pill">
+                    Register
+                  </a>
+                </Link>
               </li>
               <li className="nav-item px-3">
-                <Button variant="warning rounded-pill px-4 text-light">
-                  Login
-                </Button>
+                <Link href="/login">
+                  <a className="btn btn-warning  px-4 rounded-pill text-light">
+                    Login
+                  </a>
+                </Link>
+                <Link href="/globalSettings" className="app-subnav__link">
+                  Settings Overview
+                </Link>
               </li>
             </ul>
             <form className="d-flex d-none">
