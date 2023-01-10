@@ -7,11 +7,13 @@ import OurServices from "./OurServices";
 import FoodComments from "./FoodComments";
 import FoodCmns from "./FoodCmns";
 import NewsLetter from "./NewsLetter";
+import Counter from "../feature/counter/Counter";
 
 const HomePage = () => {
   return (
     <>
       <main className={styles.main}>
+        <Counter />
         <HeroSection />
         <SupportBy />
         <OurServices />

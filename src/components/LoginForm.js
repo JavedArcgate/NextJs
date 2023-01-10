@@ -2,17 +2,25 @@ import React from "react";
 // import styles from "../styles/Home.module.scss";
 import { Form, Button } from "react-bootstrap";
 import Link from "next/link";
-import Head from 'next/head'
+import Head from "next/head";
+import { FaHome } from "react-icons/fa";
 
 export default function LoginForm() {
   return (
     <>
       <main className="main">
-      <Head>
-        <title>Food App - Login</title>
-      </Head>
+        <Head>
+          <title>Food App - Login</title>
+        </Head>
         <section className="bg-brand p-4 text-light">
-          <h4 className="fw-bold">Login Screen</h4>
+          <div className="d-flex align-items-center justify-content-between mb-3">
+            <h4 className="fw-bold">Login Screen</h4>
+            <Link href="/">
+              <a>
+                <FaHome size={18} color={"var(--bs-dark)"} />
+              </a>
+            </Link>
+          </div>
           <Form>
             <Form.Group controlId="formBasicEmail" className="mb-2">
               <Form.Label>Email Address</Form.Label>
@@ -41,9 +49,7 @@ export default function LoginForm() {
 
             <Form.Group className="d-grid gap-2 mt-2">
               <Link href="/register">
-                <a className="btn btn-outline-dark border-2 px-4">
-                  Register
-                </a>
+                <a className="btn btn-outline-dark border-2 px-4">Register</a>
               </Link>
             </Form.Group>
           </Form>
