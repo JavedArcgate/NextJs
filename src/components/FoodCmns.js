@@ -82,7 +82,7 @@ export default function FoodCmns() {
                 <Col lg={6}>
                   <Row>
                     <Col lg={12} className="mb-2">
-                      <small className="text-warning">{mainTitle}</small>
+                      <small className="brand-color">{mainTitle}</small>
                     </Col>
                     <Col lg={12} className="pe-5">
                       <h1 className="fw-bold pe-5">{subTitle}</h1>

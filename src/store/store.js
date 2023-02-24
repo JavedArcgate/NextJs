@@ -1,8 +1,17 @@
-import { configureStore } from "@reduxjs/toolkit";
-import counterReducer from "../feature/counter/counterSlice";
+import { combineReducers, configureStore } from "@reduxjs/toolkit";
+import { createWrapper } from "next-redux-wrapper";
+import counter from "../feature/counter/counterSlice";
+import foods from "../feature/food/foodSlice";
 
-export const store = configureStore({
-  reducer: {
-    counter: counterReducer,
-  },
+//For combine all the reducers in one root reducer
+const root_reducer = combineReducers({
+  counter,
+  foods,
 });
+
+export const makeStore = () =>
+  configureStore({
+    reducer: root_reducer,
+  });
+
+export const wrapper = createWrapper(makeStore);

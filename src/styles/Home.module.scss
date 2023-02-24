@@ -4,7 +4,39 @@
   background-color: $color-brand;
 }
 .brand-color{
-  color: $color-brand !important;
+  color: $brand-dark !important;
+}
+.border-brand{
+  border-color: $color-brand;
+}
+.btn-brand {
+  color: $black;
+  background-color: $color-brand;
+  border-color: $color-brand;
+  &:hover{
+    color: $black;
+    background-color: $brand-dark;
+    border-color: $brand-dark;
+  }
+}
+.btn-outline-brand {
+  color: $color-brand;
+  border-color: $color-brand;
+  &:hover{
+    color: $black;
+    background-color: $color-brand;
+  }
+}
+.dropdown-item:hover, .dropdown-item:focus{
+  background-color: $color-brand;
+}
+
+.navbar-nav {
+  a{
+    &:hover{
+      color: $black;
+    }
+  }
 }
 
 .main {

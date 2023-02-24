@@ -51,7 +51,7 @@ export default function Slider() {
       <Row>
         <Col lg={12} className="text-center mb-2">
           {/* <RotaryCircleLogo fill={'#198754'} /> */}
-          <small className="text-warning">{mainTitle}</small>
+          <small className="brand-color">{mainTitle}</small>
         </Col>
         <Col lg={12} className="text-center">
           <h3 className="fw-bold">{subTitle}</h3>

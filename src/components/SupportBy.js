@@ -38,7 +38,7 @@ export default function SupportBy() {
   return (
     <section className="container py-5">
       <Row>
-        <Col lg={12} className="text-center"><small className="text-muted">Support by:</small></Col>
+        <Col lg={12} className="text-center"><small className="brand-color">Support by:</small></Col>
       </Row>
       <OwlCarousel
         loop

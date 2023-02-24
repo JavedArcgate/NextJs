@@ -10,7 +10,7 @@ export default function OurServices() {
     <section className="my-5 container align-items-center justify-content-between mt-4 mb-5 pb-5">
       <Row>
         <Col lg={12} className="text-center mb-2">
-          <small className="text-warning">{mainTitle}</small>
+          <small className="brand-color">{mainTitle}</small>
         </Col>
         <Col lg={12} className="text-center">
           <h3 className="fw-bold">{subTitle}</h3>

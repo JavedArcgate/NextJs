@@ -14,9 +14,6 @@ function Header() {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light px-lg-5 px-sm-3 one sticky-top bg-white border-bottom">
         <div className="container-fluid">
-          {/* <a className="navbar-brand fw-bold brand-color" href="#">
-            F&D
-          </a> */}
           <Logo />
           <button
             className="navbar-toggler"
@@ -74,19 +71,16 @@ function Header() {
               )}
               <li className="nav-item px-3">
                 <Link href="/register">
-                  <a className="btn btn-outline-warning px-4 rounded-pill">
+                  <a className="btn btn-outline-brand px-4 rounded-pill">
                     Register
                   </a>
                 </Link>
               </li>
               <li className="nav-item px-3">
                 <Link href="/login">
-                  <a className="btn btn-warning  px-4 rounded-pill text-light">
+                  <a className="btn btn-brand  px-4 rounded-pill text-light">
                     Login
                   </a>
-                </Link>
-                <Link href="/globalSettings" className="app-subnav__link">
-                  Settings Overview
                 </Link>
               </li>
             </ul>
