@@ -112,7 +112,7 @@
   border-radius: 100%;
 
   &.active {
-    background-color: #ec994a !important;
+    background-color: $color-brand !important;
     box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
     height: 20px;
     width: 20px;
@@ -136,4 +136,11 @@
 }
 ::selection{
   background-color: $color-brand;
+}
+.ascending::after {
+  content: '⏷';
+}
+
+.descending::after {
+  content: '⏶';
 }

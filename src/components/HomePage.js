@@ -8,19 +8,23 @@ import FoodComments from "./FoodComments";
 import FoodCmns from "./FoodCmns";
 import NewsLetter from "./NewsLetter";
 import Counter from "../feature/counter/Counter";
+import countDownTimer from "../components/CountDownTimer"
+import ProductTable from "../components/Sortable"
 
 const HomePage = () => {
   return (
     <>
       <main className={styles.main}>
+        {/* <countDownTimer date={} /> */}
+        <ProductTable />
         <Counter />
-        <HeroSection />
+        {/* <HeroSection />
         <SupportBy />
         <OurServices />
         <Slider />
         <FoodComments />
         <FoodCmns />
-        <NewsLetter />
+        <NewsLetter /> */}
       </main>
     </>
   );

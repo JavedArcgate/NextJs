@@ -32,7 +32,6 @@ function NewsLetter() {
     let isValidEmail = true;
 
     if (email.trim() === "") {
-      alert(erEmail);
       setErrorMessages(erEmail);
       disposeError("Error");
       return false;
@@ -48,13 +47,11 @@ function NewsLetter() {
       }
     });
     if (isValidEmail === false) {
-      alert("Innnnnnvalidddd.....");
       setErrorMessages(erEmail);
       disposeError("Error");
       return false;
     }
     if (isValidEmail === true) {
-      alert("Yay, Its Valid Email.....");
       setSuccessMessages(emailRegistered);
       disposeError("Success");
       return true;
