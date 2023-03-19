@@ -15,16 +15,16 @@ const HomePage = () => {
   return (
     <>
       <main className={styles.main}>
-        {/* <countDownTimer date={} /> */}
+        {/* <countDownTimer date={"1"} /> */}
         <ProductTable />
         <Counter />
-        {/* <HeroSection />
+        <HeroSection />
         <SupportBy />
         <OurServices />
         <Slider />
         <FoodComments />
         <FoodCmns />
-        <NewsLetter /> */}
+        <NewsLetter />
       </main>
     </>
   );
