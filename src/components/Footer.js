@@ -17,7 +17,7 @@ function Footer() {
         <Row className="text-light m-0">
           <Col className="text-center">
             <a className="navbar-brand fw-bold brand" href="#">
-              F&D
+              SKLU Cabs
             </a>
             <div className="mt-3">
               <a href="" className="me-3">
@@ -27,7 +27,7 @@ function Footer() {
                 <FaInstagram size={26} />
               </a>
             </div>
-            <div className="mt-3">
+            {/* <div className="mt-3">
               <a href="" className="me-3">
                 {" "}
                 <FaRegEnvelope size={25} />
@@ -35,7 +35,7 @@ function Footer() {
               <a href="">
                 <FaTwitter size={26} />
               </a>
-            </div>
+            </div> */}
           </Col>
           <Col>
             <h6 className="fw-bold">Our Products</h6>
@@ -101,17 +101,17 @@ function Footer() {
                 href="#"
                 className="border-0 px-0 list-group-item list-group-item-action bg-transparent"
               >
-                +91-1234567890
+                +91-7665886508
               </a>
               <a
                 href="#"
                 className="border-0 px-0 list-group-item list-group-item-action bg-transparent"
               >
-                example@gm.com
+                moin.khan@12qcrtechnologies.com
               </a>
             </div>
           </Col>
-          <Col>
+          {/* <Col>
             <h6 className="fw-bold">Food Delivery</h6>
             <div className="list-group">
               <a
@@ -127,7 +127,7 @@ function Footer() {
                 Bungo Tanjung Delivery
               </a>
             </div>
-          </Col>
+          </Col> */}
         </Row>
         <Row className="mx-0 mt-5 pt-5 text-center">
           <Col>

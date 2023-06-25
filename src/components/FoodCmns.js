@@ -1,5 +1,5 @@
 import React from "react";
-import FoodCommentsData from "../utils/FoodCommentsData.json";
+import SchoolsCommentsData from "../utils/SchoolsCommentsData.json";
 import { Row, Col } from "react-bootstrap";
 import { LR } from "../constants/svgs"
 
@@ -55,15 +55,15 @@ export default function FoodCmns() {
         stagePadding={0}
         {...options}
       >
-        {FoodCommentsData.map((data, index) => {
+        {SchoolsCommentsData.map((data, index) => {
           let prev =
             index == 0
-              ? FoodCommentsData[FoodCommentsData.length - 1]
-              : FoodCommentsData[index - 1];
+              ? SchoolsCommentsData[SchoolsCommentsData.length - 1]
+              : SchoolsCommentsData[index - 1];
           let next =
-            index == FoodCommentsData.length - 1
-              ? FoodCommentsData[0]
-              : FoodCommentsData[index + 1];
+            index == SchoolsCommentsData.length - 1
+              ? SchoolsCommentsData[0]
+              : SchoolsCommentsData[index + 1];
           // console.log(prev, "PREVVVVVVVV");
           return (
             <div className="px-2" key={index}>

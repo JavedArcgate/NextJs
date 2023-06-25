@@ -3,52 +3,5 @@
     "id": "01",
     "title": "Home",
     "url": "/"  
-  },
-  {
-    "id": "02",
-    "title": "Menu",
-    "menu":[
-      {
-        "id":"m01",
-        "mTiltle":"Service01",
-        "url":"/"
-      }
-    ],
-    "url": "/"
-  },
-  {
-    "id": "03",
-    "title": "Services",
-    "menu":[
-      {
-        "id":"m01",
-        "mTiltle":"Service01",
-        "url":"/"
-      },
-      {
-        "id":"m02",
-        "mTiltle":"Service02",
-        "url":"/"
-      },
-      {
-        "id":"m03",
-        "mTiltle":"Service03",
-        "url":"/"
-      }
-    ],
-    "url": "/"    
-  },
-  {
-    "id": "04",
-    "title": "Contact",
-    
-    "url": "/",
-    "menu":[
-      {
-        "id":"m01",
-        "mTiltle":"Service01",
-        "url":"/"
-      }
-    ]    
   }
 ]

@@ -4,7 +4,7 @@ import HeroSection from "./HeroSection";
 import SupportBy from "./SupportBy";
 import Slider from "./Slider";
 import OurServices from "./OurServices";
-import FoodComments from "./FoodComments";
+import SchoolsComments from "./SchoolsComments";
 import FoodCmns from "./FoodCmns";
 import NewsLetter from "./NewsLetter";
 import Counter from "../feature/counter/Counter";
@@ -16,14 +16,14 @@ const HomePage = () => {
     <>
       <main className={styles.main}>
         {/* <countDownTimer date={"1"} /> */}
-        <ProductTable />
-        <Counter />
+        {/* <ProductTable /> */}
+        {/* <Counter /> */}
         <HeroSection />
-        <SupportBy />
+        {/* <SupportBy /> */}
         <OurServices />
-        <Slider />
-        <FoodComments />
-        <FoodCmns />
+        {/* <Slider /> */}
+        {/* <SchoolsComments /> */}
+        {/* <FoodCmns /> */}
         <NewsLetter />
       </main>
     </>

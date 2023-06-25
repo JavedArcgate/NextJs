@@ -1,20 +1,20 @@
 [
   {
     "id": "01",
-    "title": "Delivery Food",
-    "description": "Lorem ipsum dolor a sit amet consecteture",
+    "title": "REAL TIME TRACKING",
+    "description": "The School Bus Tracking System assigns routes and alerts for deviations in real-time.",
     "image": "images/delivery-food.png"
   },
   {
     "id": "02",
-    "title": "Ease to Order",
-    "description": "Lorem ipsum dolor a sit amet consecteture",
+    "title": "EASY TO BOOK",
+    "description": "Book your child's ride in seconds - anytime, anywhere with our School Bus Booking App.",
     "image": "images/easy-order.png"
   },
   {
     "id": "03",
-    "title": "Fastest Delivery",
-    "description": "Lorem ipsum dolor a sit amet consecteture",
+    "title": "VERIFIED DRIVER",
+    "description": "Ensuring safe rides for your children - every time with our verified School Bus Drivers.",
     "image": "images/fast-delivery.png"
   },
   {

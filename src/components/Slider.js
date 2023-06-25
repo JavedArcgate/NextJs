@@ -2,8 +2,8 @@ import React from "react";
 import CarousalData from "../utils/CarousalData.json";
 import { Row, Col } from "react-bootstrap";
 import {LR as LLR } from '../constants/svgs'
-const mainTitle = "— Populer Deliveries —";
-const subTitle = "Trending Foods";
+const mainTitle = "— Populer Drivers —";
+const subTitle = "Experienced drivers with a touch of happiness";
 
 var $ = require("jquery");
 if (typeof window !== "undefined") {

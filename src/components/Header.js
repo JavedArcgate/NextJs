@@ -70,14 +70,14 @@ function Header() {
                 )
               )}
               <li className="nav-item px-3">
-                <Link href="/register">
+                <Link href="#">
                   <a className="btn btn-outline-brand px-4 rounded-pill">
                     Register
                   </a>
                 </Link>
               </li>
               <li className="nav-item px-3">
-                <Link href="/login">
+                <Link href="#">
                   <a className="btn btn-brand  px-4 rounded-pill text-light">
                     Login
                   </a>

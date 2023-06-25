@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Col, Row } from "antd";
 import { erEmail, emailRegistered } from "../constants/variables";
 
-const NLImage = "./images/eat.png";
+const NLImage = "./images/school_bus.png";
 
 const classes = "container align-items-center justify-content-between pt-5 pb-5 bg-brand";
 

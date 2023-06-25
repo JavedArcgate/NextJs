@@ -3,11 +3,11 @@ import ServicesCarousalData from "../utils/ServicesCarousalData.json";
 import { Row, Col } from "react-bootstrap";
 
 const mainTitle = "— Our Services —";
-const subTitle = "Our serve just for you";
+const subTitle = "Safely connecting students to learning";
 
 export default function OurServices() {
   return (
-    <section className="my-5 container align-items-center justify-content-between mt-4 mb-5 pb-5">
+    <section className="my-5 container align-items-center justify-content-between mt-6 mb-5 pb-5">
       <Row>
         <Col lg={12} className="text-center mb-2">
           <small className="brand-color">{mainTitle}</small>
@@ -26,7 +26,7 @@ export default function OurServices() {
               title={data.title}
             />
             <h3 className="fw-bold my-4">{data.title}</h3>
-            <h5 className="text-muted">{data.description}</h5>
+          <h5 className="text-muted">{data.description}</h5>
           </Col>
         ))}
       </Row>

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "01",
+    "name": "Central Academy Sr. Sec. School",
+    "category":"School",
+    "rating": "4.2",
+    "comment": "We are impressed by the school's transportation services. The vehicles are always on time, and the drivers prioritize the safety of the students. It gives me peace of mind knowing that my child is in good hands during their journey to school.",
+    "user_pic": "images/central-academy-mt.jpg",
+    "dish_pic": "images/central-academy-mt.jpg"
+  },
+  {
+    "id": "02",
+    "name": "The VIT School Udaipur",
+    "category":"School",
+    "rating": "3.9",
+    "comment": "The school transportation system is highly efficient. The buses are well-maintained, clean, and equipped with appropriate safety measures. The drivers are friendly and professional, creating a positive and comfortable atmosphere for the students.",
+    "user_pic": "images/the_vit.png",
+    "dish_pic": "images/the_vit.png"
+  },
+  {
+    "id": "03",
+    "name": "St. Mathews School Udaipur",
+    "category":"School",
+    "rating": "4.7",
+    "comment": "The school's transportation department does an outstanding job in coordinating routes and managing schedules. They have a clear communication system in place, keeping parents informed about any changes or delays. It demonstrates their dedication to ensuring a smooth and reliable transportation service.",
+    "user_pic": "images/st_mathew_school_mt.jpg",
+    "dish_pic": "images/st_mathew_school_mt.jpg"
+  }
+]

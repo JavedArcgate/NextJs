@@ -2,73 +2,41 @@
   {
     "id": "01",
     "title": "Special Pizza",
-    "price": "$12",
-    "image": "images/01.jpg",
+    "price": "",
+    "image": "images/drvr01.jpg",
     "rating": "4.5",
     "stocks": 2
   },
   {
     "id": "02",
     "title": "Chow Mein",
-    "price": "$15",
-    "image": "images/02.jpg",
+    "price": "",
+    "image": "images/drvr02.jpg",
     "rating": "2.3",
     "stocks": 3
   },
   {
     "id": "03",
     "title": "Pancakes",
-    "price": "$25",
-    "image": "images/03.jpg",
+    "price": "",
+    "image": "images/drvr03.jpg",
     "rating": "2.9",
     "stocks": 1
   },
   {
     "id": "04",
     "title": "Fried Rice",
-    "price": "$08",
-    "image": "images/04.jpg",
+    "price": "",
+    "image": "images/drvr04.jpg",
     "rating": "4.2",
     "stocks": 5
   },
   {
     "id": "05",
     "title": "Dumplings",
-    "price": "$12",
-    "image": "images/05.jpg",
+    "price": "",
+    "image": "images/drvr05.jpg",
     "rating": "4.6",
     "stocks": 9
-  },
-  {
-    "id": "06",
-    "title": "Bhatura",
-    "price": "$15",
-    "image": "images/06.jpg",
-    "rating": "3.1",
-    "stocks": 12
-  },
-  {
-    "id": "07",
-    "title": "Butter chicken",
-    "price": "$25",
-    "image": "images/07.jpg",
-    "rating": "5.0",
-    "stocks": 15
-  },
-  {
-    "id": "08",
-    "title": "Biryani",
-    "price": "$08",
-    "image": "images/08.jpg",
-    "rating": "4.7",
-    "stocks": 13
-  },
-  {
-    "id": "09",
-    "title": "Chicken Tikka",
-    "price": "$11",
-    "image": "images/09.jpg",
-    "rating": "4.8",
-    "stocks": 8
   }
 ]
