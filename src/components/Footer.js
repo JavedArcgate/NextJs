@@ -20,10 +20,10 @@ function Footer() {
               SKLU Cabs
             </a>
             <div className="mt-3">
-              <a href="" className="me-3">
+              <a href="https://www.facebook.com/sklucabs-105759349223318" className="me-3">
                 <FaFacebook size={26} />
               </a>
-              <a href="">
+              <a href="https://www.instagram.com/sklucabs">
                 <FaInstagram size={26} />
               </a>
             </div>
